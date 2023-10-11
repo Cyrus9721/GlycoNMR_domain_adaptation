@@ -48,9 +48,11 @@ pip install requirements.txt
 
 ## Domain Adaptation of GlycoNMR dataset:
 
-|        | GlycoNMR.Sim C Shift | GlycoNMR.Sim_pretrain C Shift |
-|--------|----------------------|------------------------------------|
-| GCN    | 4.822±0.068          | 4.323±0.015                        |
+|           | GlycoNMR.Exp C Shift | GlycoNMR.Exp_pretrain C Shift | GlycoNMR.Sim |
+|-----------|----------------------|-------------------------------|--------------|
+| GCN + MLP | 4.822±0.068          | 4.323±0.015                   | 1.859        |
+| SchNet    | 7.1812±0.232         | 4.813±0.085                   | 1.521        |  
+
 
 
 ##### This work was supported by GlycoMIP, a National Science Foundation Materials Innovation Platform funded through Cooperative Agreement DMR-1933525.
