@@ -46,7 +46,7 @@ Install all required python libraries:
 pip install requirements.txt
 ```
 
-## Domain Adaptation of GlycoNMR dataset:
+## Domain Adaptation of GlycoNMR dataset: 20% train, 80% test
 
 |           | GlycoNMR.Exp C Shift | GlycoNMR.Exp_pretrain C Shift | GlycoNMR.Sim |
 |-----------|----------------------|-------------------------------|--------------|
